@@ -1,9 +1,5 @@
 # Electronics Repair & Engineering Portfolio
 
-Welcome to my project portfolio! This site documents my work in electronics troubleshooting, test equipment restoration, vintage computing, and custom hardware development. 
-
-Click on any of the projects below to read the detailed write-ups, view schematics, and see the repair processes.
-
 ## Test Equipment Repair & Restoration
 
 * **[Keithley 2000 6.5-Digit DMM Repair](projects/keithley_2000_dmm_repair.md)**
@@ -26,11 +22,12 @@ Click on any of the projects below to read the detailed write-ups, view schemati
 * **[Franck-Hertz Experiment & Custom Hardware](projects/franck_hertz_experiment.md)**
   Design and assembly of custom laboratory hardware—including independent electrode power supplies, an ultra-low noise transimpedance amplifier, and a PID thermostat—to facilitate a classic quantum mechanics experiment.
 
+* **[Nixie-tube 5.5 digit DMM](projects/nixie_dmm.md)**
+  Design of a modern 5.5 digit multimeter with nixie tube display.
+
 ## Vintage Computing
 
 * **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**
   Complete restoration of a vintage Mac, featuring a CRT replacement, analog board repair, logic board recapping, and modern BlueSCSI implementation.
 
 ---
-
-*Contact information or a link to my resume can be found [here](link-to-your-resume.pdf).*
