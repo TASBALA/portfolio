@@ -3,7 +3,7 @@ December 2024
 
 The HIKI 1660C was a 4.5 digit DMM released in the 80s. It uses the TI LD120-121 ADC pair, with optically and galvanically isolated analog and digital sections. It has a current input with 10nA resolution, AC current capability, 4 wire resistance measurement, DCV range up to 1000V and a 0.1% accuracy.
 
-![TR1660](.../images/1660.jpg)
+![TR1660](../images/1660.jpg)
 
 ## Initial condition
 No display activity. Power supply rails operating, some electrolytics were preventively replaced. No data was sent from the in-guard region LD120 to the digital LD121. The reason was that the LD121 had no OSC clock signal.
