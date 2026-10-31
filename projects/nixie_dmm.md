@@ -8,7 +8,9 @@ The nixie tube display board has been designed and manufactured. It has a IN-15A
 
 <img src="../images/nixie_board.png">
 <img src="../images/nixie_alldigits.jpg">
-![Video](../images/nixie_voltmeter.mp4)
+<video width="100%" controls>
+  <source src="../images/nixie_voltmeter.mp4" type="video/mp4">
+</video>
 
 
 An ADS1259 24bit ADC-based aquisition board was purchased and made to interface with an Arduino and the display. The desing of the analog front-end is in progress.

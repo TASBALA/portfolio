@@ -25,6 +25,9 @@
 * **[Nixie-tube 5.5 digit DMM](projects/nixie_dmm.md)**
   Design of a modern 5.5 digit multimeter with nixie tube display.
 
+* **[Quantum electronics sample holder](projects/sideprobe.md)**
+  PCB design of a sample holder for the BME Nanoelectronics Research Group
+
 ## Vintage Computing
 
 * **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**

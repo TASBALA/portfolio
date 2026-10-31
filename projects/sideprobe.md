@@ -1,4 +1,5 @@
 # Sideprobe PCB for the Nanoelectronics Laboratory
+2025
 
 The BME Nanoelectronics Laboratory researches the quantumelectronic devices in cryogenic 3He-4He dilution fridges at millikelvin temperatures and strong magnetic fields. The fridge has a solenoidal electromagnet, and the group's samples are loaded into the bore of which using probes. The samples are prepared using electronlitography. Previously, they were glued onto chip carriers, which were inserted into chip carrier sockets.
 
