@@ -4,7 +4,7 @@ The Franck-Hertz experiment was conducted in 1914 by James Franck and Gustav Her
 
 This behavior was consistent with the Bohr model (proposed in 1913): when the kinetic energy of an electron exactly matches the energy difference between two states of a mercury atom, it collides inelastically, exciting the atom and losing its energy. If the electron's energy does not match a state transition energy, it collides elastically. This experiment had a profound influence on the development of early quantum mechanics.
 
-<img src="../img/FH_setup.jpg">
+<img src="../images/FH_setup.jpg">
 
 ## Experiment Details
 
