@@ -52,7 +52,7 @@ Schematics are available for the [motherboard](../images/FH_driver_mobo.pdf) and
 The motherboard utilizes a double-layer PCB featuring a mix of THT and SMD construction. A ribbon cable links the motherboard to the front panel, which houses the banana plugs, potentiometers, and switches. SMD components are populated on the rear side of the board.
 
 <img src="../images/FH_frontpanel_front.png">
-<img src="../images/FH_frontpanel_front.png">
+<img src="../images/FH_frontpanel_back.png">
 
 A total of six identical units were assembled for the laboratory.
 
