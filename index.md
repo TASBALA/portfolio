@@ -17,6 +17,9 @@
 * **[HP 425A DC Micro Volt-Ammeter Restoration](projects/hp_425a_restoration.md)**
   Maintenance and testing of a highly sensitive 1958 chopper amplifier meter capable of measuring picoamps.
 
+* **[HP 428B clip-on DC milliammeter](projects/hp428b.md)**
+  Maintenance and calibration of a special clip-on DC milliammeter.
+
 ## Hardware Development & Physics
 
 * **[Franck-Hertz Experiment & Custom Hardware](projects/franck_hertz_experiment.md)**
@@ -30,6 +33,12 @@
 
 * **[OpenGamma gamma spectrometer](projects/gamma_spectrometer.md)**
   A gamma spectrometer based on the design of **NuclearPhoenixx**
+
+* **[2013 Imac to monitor conversion](projects/imac_2013.md)**
+  A faulty Imac was converted into a monitor, using the original power supply and speakers.
+
+* **[2010 Imac to monitor conversion](projects/imac_2010.md)**
+  A faulty Imac was converted into a monitor, with some custom circuitry to reuse the original inverter.
 
 ## Vintage Computing
 

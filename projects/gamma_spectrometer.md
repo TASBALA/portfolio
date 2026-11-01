@@ -1,4 +1,5 @@
 # Open Gamma Detector
+June 2025
 
 An open-source gamma spectrometer was built from the [plans of **NuclearPhoenixx**](https://github.com/OpenGammaProject/Open-Gamma-Detector). The spectrometer uses a NaI(Tl) scintillation crystal, a silicon photomultiplier, some amplification and discrimination electronics, and the ADC of a Raspberry Pi Pico2.
 
