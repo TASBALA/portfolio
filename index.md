@@ -28,6 +28,9 @@
 * **[Quantum electronics sample holder](projects/sideprobe.md)**
   PCB design of a sample holder for the BME Nanoelectronics Research Group
 
+* **[OpenGamma gamma spectrometer](projects/gamma_spectrometer.md)**
+  A gamma spectrometer based on the design of **NuclearPhoenixx**
+
 ## Vintage Computing
 
 * **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**
