@@ -1,4 +1,4 @@
-name: Compress Images
+name: Optimize Images
 on:
   workflow_dispatch:
   push:
@@ -8,7 +8,6 @@ on:
       - 'images/**.jpg'
       - 'images/**.jpeg'
       - 'images/**.png'
-      - 'images/**.webp'
 
 jobs:
   build:
@@ -19,13 +18,11 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         
-      - name: Compress Images
-        uses: calibreapp/image-actions@main
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          compressOnly: true
+      - name: Fix Rotation and Resize
+        run: |
+          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec mogrify -auto-orient -resize '1200x1200>' -quality 82 {} +
           
       - name: Save to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-compressed images"
+          commit_message: "Fixed rotation and resized images for web"
