@@ -18,9 +18,14 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         
-      - name: Process Images Safely
+      - name: Install and Process
         run: |
-          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c 'mogrify -auto-orient -resize "1200x1200>" -quality 82 "$1" || true' _ {} \;
+          sudo apt-get update -y && sudo apt-get install -y imagemagick
+          shopt -s nullglob nocaseglob
+          for img in images/*.jpg images/*.jpeg images/*.png; do
+            echo "Processing $img..."
+            mogrify -auto-orient -resize '1200x1200>' -quality 82 "$img" || echo "WARNING: Failed to process $img"
+          done
           
       - name: Save to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
