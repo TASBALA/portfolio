@@ -18,9 +18,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         
-      - name: Fix Rotation and Resize
+      - name: Process Images Safely
         run: |
-          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec mogrify -auto-orient -resize '1200x1200>' -quality 82 {} + || true
+          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c 'mogrify -auto-orient -resize "1200x1200>" -quality 82 "$1" || true' _ {} \;
           
       - name: Save to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
