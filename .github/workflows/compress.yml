@@ -20,7 +20,7 @@ jobs:
         
       - name: Fix Rotation and Resize
         run: |
-          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec mogrify -auto-orient -resize '1200x1200>' -quality 82 {} +
+          find images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec mogrify -auto-orient -resize '1200x1200>' -quality 82 {} + || true
           
       - name: Save to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
