@@ -40,6 +40,9 @@
 * **[2010 Imac to monitor conversion](projects/imac_2010.md)**
   A faulty Imac was converted into a monitor, with some custom circuitry to reuse the original inverter.
 
+* **[Laboratory classes at BME](projects/lab_classes.md)**
+  A total of 21 credits of laboratory classes so far, all passed with excellent marks.
+
 ## Vintage Computing
 
 * **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**
