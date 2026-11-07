@@ -1,5 +1,7 @@
 # Electronics Repair & Engineering Portfolio
 
+<img src="./images/lab.jpg">
+
 ## Test Equipment Repair & Restoration
 
 * **[Keithley 2000 6.5-Digit DMM Repair](projects/keithley_2000_dmm_repair.md)**
@@ -19,6 +21,15 @@
 
 * **[HP 428B clip-on DC milliammeter](projects/hp428b.md)**
   Maintenance and calibration of a special clip-on DC milliammeter.
+
+* **[Tektronix 453 Cathode Ray Oscilloscope repair](projects/tek_453.md)**
+  Repair of a vertical channel and the delayed timebase.
+
+* **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**
+  Complete restoration of a vintage Mac, featuring a CRT replacement, analog board repair, logic board recapping, and modern BlueSCSI implementation.
+
+* **[Thinpad T490 backlight repair](projects/T490.md)**
+  Replacement of a 0402 SMD fuse by hand.
 
 ## Hardware Development & Physics
 
@@ -43,9 +54,8 @@
 * **[Laboratory classes at BME](projects/lab_classes.md)**
   A total of 21 credits of laboratory classes so far, all passed with excellent marks.
 
-## Vintage Computing
+* **[Solid-state Tesla Coil](projects/sstc.md)**
+  IGBT H-bridge Tesla coil.
 
-* **[Macintosh SE FDHD Repair](projects/macintosh_se_fdhd_repair.md)**
-  Complete restoration of a vintage Mac, featuring a CRT replacement, analog board repair, logic board recapping, and modern BlueSCSI implementation.
 
 ---

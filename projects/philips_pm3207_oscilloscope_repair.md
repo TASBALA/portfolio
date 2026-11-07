@@ -20,3 +20,5 @@ The fault was isolated to diode V304 (BAY45), which had failed and was incorrect
 Investigation of the trigger circuitry showed that the trigger pick-off correctly fed the level detector, but the resulting signal never reached the comparator. The point of failure was D601 (an LM324 op-amp), which is responsible for amplifying the level signal and feeding it to the comparator. Replacing D601 restored full trigger functionality.
 
 <img src="../images/pm3217_trigger.png" alt="alt" width="600">
+
+<img src="../images/pm3207_repair.jpg" width="400">
