@@ -1,4 +1,5 @@
-# Electronics Repair & Engineering Portfolio
+# Bálint Tasnádi Engineering Portfolio
+[Resume](./TB_resume.pdf)
 
 <img src="./images/lab.jpg">
 
@@ -8,7 +9,7 @@
   Extensive restoration involving severe power supply corrosion repair, logic line troubleshooting, and the fabrication of a custom 10-channel scanner card.
 
 * **[Tektronix 549 Cathode Ray Oscilloscope Repair](projects/tektronix_549_repair.md)**
-  Diagnostics and repair of a 32kg, 1965 vintage analog storage oscilloscope, including troubleshooting the thermal delay startup sequence.
+  Diagnostics and repair of a 32kg, 1965 vintage analog storage oscilloscope
 
 * **[Philips PM3207 Cathode Ray Oscilloscope Repair](projects/philips_pm3207_oscilloscope_repair.md)**
   Mechanical and component-level repairs to restore missing channels, vertical position controls, and trigger circuitry.
@@ -34,7 +35,7 @@
 ## Hardware Development & Physics
 
 * **[Franck-Hertz Experiment & Custom Hardware](projects/franck_hertz_experiment.md)**
-  Design and assembly of custom laboratory hardware—including independent electrode power supplies, an ultra-low noise transimpedance amplifier, and a PID thermostat—to facilitate a classic quantum mechanics experiment.
+  Design and assembly of custom laboratory hardware—including independent electrode power supplies, a low noise transimpedance amplifier, and a PID thermostat to facilitate a classic quantum mechanics experiment.
 
 * **[Nixie-tube 5.5 digit DMM](projects/nixie_dmm.md)**
   Design of a modern 5.5 digit multimeter with nixie tube display.
