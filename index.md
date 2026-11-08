@@ -1,4 +1,3 @@
-# Bálint Tasnádi Engineering Portfolio
 [Resume](./TB_resume.pdf)
 
 <img src="./images/lab.jpg">
